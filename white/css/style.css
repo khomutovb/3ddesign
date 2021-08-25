@@ -1,0 +1,1154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background: #fff;
+    color: #000000;
+    overflow-x: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 40px;
+}
+
+.header__row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10.14px 0;
+}
+
+.nav__item {
+    font-family: "Pragmatica";
+    font-size: 20px;
+}
+
+.header__item:nth-child(2) {
+    margin-left: 100px;
+}
+
+.header__item button {
+    font-family: "Pragmatica";
+    font-size: 20px;
+}
+
+nav {
+    margin-left: 60px;
+}
+
+.nav__item:nth-child(2) {
+    margin-left: 60px;
+}
+
+.ft-section__title-container {
+    text-align: center;
+    padding-top: 65px;
+}
+
+.ft-section__title-container p {
+    font-family: "Pragmatica";
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.ft-section__title-container h1 {
+    font-family: "Literaturnaya";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 110%;
+    padding-top: 10px;
+    max-width: 708px;
+    margin: auto;
+}
+
+.btn__buy {
+    min-width: 145px;
+    height: 48px;
+    margin: auto;
+    background: #000000;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: #fff;
+    font-family: "Pragmatica";
+    font-size: 20px;
+    transition: box-shadow .4s;
+}
+
+.btn__buy:hover {
+    box-shadow: 0 0 11px 0px #000000;
+}
+
+.ft-section__img {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.ft-section__img img {
+    height: 100%;
+}
+
+.info-block__row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 78px;
+}
+
+.info-block__item.first {
+    display: flex;
+}
+
+.all-info-text {
+    display: none;
+    max-width: 413px;
+    font-family: "Pragmatica";
+    font-size: 16px;
+    line-height: 131%;
+}
+
+.info-block__item .info-text {
+    max-width: 325px;
+    font-family: "Pragmatica";
+    font-size: 20px;
+    line-height: 146%;
+}
+
+.info-block__item .info-text:first-child {
+    margin-right: 24px;
+}
+
+.info-block__item .info-list {
+    margin-right: 101px;
+}
+
+.info-block__item .info-list li {
+    font-family: "Pragmatica";
+    font-size: 16px;
+    line-height: 144%;
+    position: relative;
+    margin-bottom: 2px;
+}
+
+.info-block__item .info-list li::before {
+    content: "";
+    position: absolute;
+    left: -14px;
+    top: 0;
+    bottom: 4px;
+    width: 4px;
+    height: 1px;
+    background: #000000;
+    margin: auto;
+}
+
+.second__section {
+    padding-top: 140px;
+}
+
+.sd-section__title-container h1 {
+    font-family: "Literaturnaya";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 110%;
+    max-width: 1015px;
+    margin-bottom: 60px;
+}
+
+.swiper-container {
+    overflow: initial;
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: baseline;
+}
+
+.swiper-slide p {
+    font-family: "Pragmatica";
+    font-size: 16px;
+    line-height: 144%;
+    padding-top: 8px;
+}
+
+.slider__container img {
+    max-width: initial;
+}
+
+.swiper-slide {
+    width: auto;
+    margin-right: 20px;
+}
+
+.buttons__slider {
+    display: flex;
+    margin-top: 40px;
+}
+
+.button-prev-slider {
+    margin-right: 50px;
+}
+
+.third__section {
+    padding-top: 127px;
+}
+
+.td-section__title-container h1 {
+    font-family: "Literaturnaya";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 110%;
+    max-width: 1015px;
+}
+
+.th-section__text {
+    max-width: 670px;
+    margin-top: 40px;
+}
+
+.th-section__text p {
+    font-family: "Pragmatica";
+    font-size: 20px;
+    line-height: 144%;
+    margin-bottom: 40px;
+}
+
+.fourth__section {
+    padding-top: 92px;
+}
+
+.fh-section__row {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding-top: 11px;
+    padding-bottom: 40px;
+}
+
+.fh-section__item:first-child {
+    max-width: 460px;
+    min-width: 460px;
+}
+
+.fh-section__item:last-child {
+    width: 100%;
+}
+
+.fh-section__item:first-child h1 {
+    font-family: "Literaturnaya";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 110%;
+}
+
+.accordion {
+    display: flex;
+    font-family: "Literaturnaya";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 120%;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+}
+
+.accordion__item {
+    border-bottom: 1px solid;
+    padding: 22px 0;
+}
+
+.accordion__item:first-child {
+    padding: 9px 0 20px;
+}
+
+.accordion__item:last-child {
+    border: none;
+}
+
+.accordion-order {
+    margin-right: 60px;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #000000;
+    font-weight: 300;
+    margin-left: 5px;
+    transition: transform .4s;
+    margin: 0 auto;
+    margin-right: 0;
+}
+
+.active:after {
+    transform: rotate(45deg);
+}
+
+.panel {
+    padding: 0 78px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel p {
+    font-family: "Pragmatica";
+    font-size: 20px;
+    line-height: 144%;
+    padding-top: 14px;
+}
+
+.fifth__section {
+    padding-top: 10px;
+}
+
+.fih-section__row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.fih-section__item:first-child {
+    max-width: 460px;
+    min-width: 460px;
+}
+
+.fih-section__item:last-child {
+    width: 100%;
+}
+
+.fih-section__item:first-child h1 {
+    font-family: "Literaturnaya";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 110%;
+}
+
+.curators__item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    border-bottom: 1px solid;
+}
+
+.curators__item:first-child {
+    padding-top: 10px;
+}
+
+.curators__item:last-child {
+    border: none;
+}
+
+.curator__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 474px;
+    padding-right: 20px;
+}
+
+.curator__img {
+    min-width: 325px;
+    max-height: 325px;
+}
+
+.curator__info-item .name {
+    font-family: "Literaturnaya";
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 120%;
+}
+
+.curator__info-item .position {
+    font-family: "Pragmatica";
+    font-size: 16px;
+    line-height: 144%;
+}
+
+.curator__info-item .extra {
+    font-family: "Pragmatica";
+    font-size: 16px;
+    line-height: 144%;
+}
+
+.sevt-section__row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 110px;
+    padding-bottom: 40px;
+}
+
+.sevt-section__item:first-child {
+    max-width: 460px;
+    min-width: 460px;
+}
+
+.sevt-section__item:last-child {
+    width: 100%;
+}
+
+.sevt-section__item .accordion__item:first-child {
+    padding: 20px 0;
+}
+
+.sevt-section__item:first-child h1 {
+    font-family: "Literaturnaya";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 110%;
+}
+
+.sixth__section {
+    padding-top: 30px;
+}
+
+.sixt-section__title-container h1 {
+    font-family: "Literaturnaya";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 110%;
+}
+
+.sixt-section__title-container p {
+    font-family: Pragmatica;
+    font-size: 20px;
+    line-height: 144%;
+    max-width: 679px;
+    margin-top: 20px;
+}
+
+.price__list {
+    display: flex;
+    justify-content: center;
+    margin-top: 57px;
+}
+
+.price__item {
+    width: 33.333333%;
+    border: 1px solid;
+    padding: 40px;
+    min-height: 100%;
+    position: relative;
+}
+
+.price__item:nth-child(2) {
+    background: #000000;
+    color: #fff;
+    border: 1px solid #000000;
+}
+
+.price__item-name {
+    font-family: "Literaturnaya";
+    font-style: italic;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.price__item-price {
+    font-family: "Literaturnaya";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 54px;
+    margin-top: 44px;
+}
+
+.price__item-price span {
+    font-size: 32px;
+}
+
+.price__item-description {
+    font-family: "Pragmatica";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 144%;
+    margin-top: 4px;
+}
+
+.price__item-btn-buy {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Pragmatica";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    background: #000000;
+    border-radius: 100px;
+    margin-top: 37px;
+    transition: box-shadow .4s;
+}
+
+.price__item-btn-buy:hover {
+    box-shadow: 0 0 11px 0px #000000;
+}
+
+.price__item-btn-buy__present {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: Pragmatica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.price__item-buttons {
+    padding-bottom: 40px;
+    border-bottom: 1px solid;
+}
+
+.what-includes {
+    margin-top: 40px;
+}
+
+.what-includes__title {
+    font-family: "Pragmatica";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.what-includes__item {
+    position: relative;
+    margin-left: 37.55px;
+    font-family: "Pragmatica";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 14px;
+    padding-right: 20px;
+}
+
+.what-includes__item::before {
+    content: "";
+    background: url(../img/arrow.svg);
+    width: 15.63px;
+    height: 11.77px;
+    background-size: 15.63px 11.77px;
+    position: absolute;
+    left: -37.55px;
+    top: 8px;
+}
+
+.what-includes__item-extra {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    cursor: pointer;
+}
+
+.what-includes__item-extra__info {
+    position: absolute;
+    max-width: 262px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    top: -130px;
+    right: -120px;
+    padding: 20px;
+    color: #fff;
+    font-family: "Pragmatica";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 144%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .4s, visibility .4s;
+    z-index: 999;
+}
+
+.what-includes__item-extra__info::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    bottom: -8px;
+    background: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotate( 45deg);
+}
+
+.price__item:last-child .what-includes__item-extra__info {
+    right: -20px;
+}
+
+.price__item:last-child .what-includes__item-extra__info::after {
+    left: initial;
+    right: 16px;
+}
+
+.what-includes__item-extra:hover+.what-includes__item-extra__info {
+    opacity: 1;
+    visibility: visible;
+}
+
+.price__item:nth-child(2)::before {
+    content: "";
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: -20px;
+    left: -2px;
+    background: #000000;
+    border: 2px solid #000000;
+}
+
+.price__item:nth-child(2)::after {
+    content: "";
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: -20px;
+    left: -2px;
+    background: #000000;
+    border: 2px solid #000000;
+}
+
+.price__item:nth-child(2) .price__item-btn-buy {
+    background: #fff;
+    color: #000000;
+}
+
+.price__item:nth-child(2) .price__item-btn-buy:hover {
+    box-shadow: 0 0 11px 0px #fff;
+}
+
+.price__item:nth-child(2) .what-includes__item::before {
+    background: url(../img/arrow-black.svg);
+}
+
+.eighth__section {
+    padding-top: 135px;
+}
+
+.swiper-slide__review {
+    max-width: 783px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 30px 0 20px;
+}
+
+.swiper-wrapper__review {
+    align-items: flex-start;
+}
+
+.swiper-slide__review .review__text {
+    font-family: "Literaturnaya";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 120%;
+    height: 308px;
+    overflow: auto;
+    padding: 0;
+}
+
+.swiper-slide__review-person {
+    display: flex;
+    margin-top: 28px;
+    align-items: center;
+}
+
+.swiper-slide__review .info {
+    margin-left: 20px;
+}
+
+.swiper-slide__review .name {
+    font-family: "Literaturnaya";
+    font-style: italic;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.swiper-slide__review .position {
+    font-size: 20px;
+}
+
+.footer__container {
+    margin-top: 40px;
+    padding: 60px 0px 45px;
+}
+
+.footer__links-list {
+    display: flex;
+    max-width: 414px;
+    justify-content: space-between;
+    margin-top: 103px;
+}
+
+.footer__links-item a {
+    display: block;
+    font-family: "Pragmatica";
+    font-size: 16px;
+    line-height: 144%;
+    margin-bottom: 10px;
+}
+
+.footer__bottom-row {
+    margin-top: 98px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer__bottom-item {
+    font-family: "Pragmatica";
+    font-size: 16px;
+    display: flex;
+}
+
+.footer__bottom-item:first-child a {
+    margin-right: 40px;
+}
+
+.footer__bottom-item:first-child a:last-child {
+    margin-right: 0px
+}
+
+.footer__bottom-item:nth-child(2) a {
+    margin-right: 30px;
+}
+
+.footer__bottom-item:nth-child(2) a:last-child {
+    margin-right: 0px
+}
+
+.footer__bottom-item .year {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .curator__img {
+        min-width: 249px;
+        max-height: 249px;
+    }
+    .curator__img img {
+        height: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav__item {
+        font-size: 16px;
+    }
+    .header__item button {
+        font-size: 16px;
+    }
+    .ft-section__title-container h1 {
+        font-size: 50px;
+    }
+    .info-block__item .info-text {
+        font-size: 16px;
+    }
+    .info-block__item .info-list {
+        margin-right: 0;
+    }
+    .info-block__item .info-text:first-child {
+        margin-right: 20px;
+    }
+    .sd-section__title-container h1 {
+        font-size: 50px;
+    }
+    .td-section__title-container h1 {
+        font-size: 50px;
+    }
+    .th-section__text p {
+        font-size: 16px;
+    }
+    .fh-section__item:first-child h1 {
+        font-size: 50px;
+        max-width: 230px;
+    }
+    .fih-section__item:first-child h1 {
+        font-size: 50px;
+        max-width: 230px;
+    }
+    .fih-section__item:first-child {
+        min-width: 314px;
+        max-width: 314px;
+    }
+    .curator__info {
+        justify-content: flex-start;
+    }
+    .curator__info-item .position {
+        font-size: 14px;
+    }
+    .curator__info-item .extra {
+        margin-top: 24px;
+    }
+    .sixt-section__title-container h1 {
+        font-size: 50px;
+    }
+    .price__item {
+        padding: 30px;
+    }
+    .price__item-description {
+        font-size: 16px;
+    }
+    .price__item-name {
+        font-size: 25px;
+    }
+    .what-includes__title {
+        font-size: 16px;
+    }
+    .what-includes__item {
+        font-size: 16px;
+    }
+    .sevt-section__item:first-child {
+        max-width: 396px;
+        min-width: 396px;
+    }
+    .sevt-section__item:first-child h1 {
+        font-size: 50px;
+        max-width: 220px;
+    }
+    .panel p {
+        font-size: 16px;
+    }
+    .sd-section__title-container h1 {
+        font-size: 50px;
+    }
+    .footer__bottom-row {
+        align-items: flex-end;
+    }
+    .footer__bottom-item:first-child {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width:992px) {
+    .ft-section__title-container h1 {
+        font-size: 36px;
+    }
+    .ft-section__title-container p {
+        font-size: 11px;
+    }
+    .info-block__item.first {
+        flex-direction: column;
+    }
+    .hidden {
+        display: none;
+    }
+    .all-info-text {
+        display: block;
+    }
+    .info-block__item .info-text {
+        max-width: 450px;
+    }
+    .info-block__item .info-list li {
+        font-size: 14px;
+    }
+    .sd-section__title-container h1 {
+        font-size: 36px;
+        max-width: 411px;
+    }
+    .fh-section__item:first-child {
+        min-width: auto;
+        max-width: initial;
+        margin-right: 80px;
+    }
+    .fih-section__item:first-child {
+        min-width: auto;
+        max-width: auto;
+        margin-right: 52px;
+    }
+    .td-section__title-container h1 {
+        max-width: 413px;
+        font-size: 36px;
+    }
+    .th-section__text p {
+        max-width: 413px;
+        margin-bottom: 20px;
+    }
+    .th-section__text p:last-child {
+        margin-bottom: 0;
+    }
+    .fh-section__item:first-child h1 {
+        font-size: 36px;
+    }
+    .accordion {
+        font-size: 24px;
+    }
+    .fih-section__item:first-child h1 {
+        font-size: 36px;
+    }
+    .curator__img {
+        min-width: 165px;
+        max-height: 165px;
+    }
+    .curator__info-item .name {
+        font-size: 24px;
+    }
+    .curator__info-item .position {
+        font-size: 16px;
+    }
+    .curator__info-item .extra {
+        margin-top: 17px;
+    }
+    .sixt-section__title-container h1 {
+        font-size: 36px;
+    }
+    .price__list {
+        flex-wrap: wrap;
+    }
+    .price__item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .price__item:last-child {
+        margin-bottom: 0;
+    }
+    .price__item:nth-child(2)::before {
+        display: none;
+    }
+    .price__item:nth-child(2)::after {
+        display: none;
+    }
+    .sevt-section__item:first-child {
+        min-width: auto;
+        max-width: initial;
+        margin-right: 80px;
+    }
+    .sevt-section__item:first-child h1 {
+        font-size: 36px;
+    }
+    .swiper-slide__review .review__text {
+        font-size: 24px;
+        height: 255px;
+    }
+    .swiper-slide__review {
+        max-width: 506px;
+    }
+    .swiper-slide__review .name {
+        font-size: 24px;
+    }
+    .swiper-slide__review .position {
+        font-size: 16px;
+    }
+    .footer__links-list {
+        max-width: 261px;
+    }
+    .info-list {
+        margin-left: 30px;
+    }
+    body .price__item .what-includes__item-extra__info {
+        right: 40px !important;
+        top: -40px !important;
+    }
+    body .price__item .what-includes__item-extra__info::after {
+        left: initial !important;
+        right: -8px !important;
+        top: 0 !important;
+        bottom: 0 !important;
+    }
+    .button-prev-slider {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 680px) {
+    .container {
+        padding: 0 20px;
+    }
+    .info-block__row {
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    .info-list {
+        margin-left: 16px;
+        margin-top: 30px;
+    }
+    .header__item:nth-child(2) {
+        display: none;
+    }
+    .ft-section__title-container h1 {
+        font-size: 32px;
+    }
+    .all-info-text {
+        max-width: 100%;
+    }
+    .second__section {
+        padding-top: 60px;
+    }
+    .sd-section__title-container h1 {
+        font-size: 32px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .td-section__title-container h1 {
+        font-size: 32px;
+        max-width: 100%;
+    }
+    .th-section__text p {
+        max-width: 100%;
+    }
+    .fh-section__row {
+        flex-direction: column;
+        border: none;
+        padding-bottom: 0;
+    }
+    .fifth__section {
+        padding-top: 60px;
+    }
+    .curators__item {
+        padding-bottom: 30px;
+    }
+    .fh-section__item:first-child {
+        margin-right: 0;
+    }
+    .fh-section__item:first-child h1 {
+        font-size: 32px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .accordion__container {
+        border-top: 1px solid;
+        padding-top: 11px;
+    }
+    .fih-section__row {
+        flex-direction: column;
+        border: none;
+    }
+    .fih-section__item:first-child h1 {
+        font-size: 32px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .sixt-section__title-container h1 {
+        font-size: 32px;
+    }
+    .sixt-section__title-container p {
+        font-size: 16px;
+    }
+    .sevt-section__row {
+        flex-direction: column;
+        border: none;
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+    .sevt-section__item:first-child h1 {
+        font-size: 32px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .eighth__section {
+        padding-top: 60px;
+    }
+    .swiper-slide__review {
+        max-width: 335px;
+    }
+    .footer__bottom-item:nth-child(2) {
+        display: none;
+    }
+    .swiper-slide {
+        margin-right: 10px !important;
+    }
+    .footer__bottom-item:last-child {
+        display: none;
+    }
+    .footer__bottom-item .year {
+        display: inline;
+    }
+    .ft-section__title-container {
+        padding-top: 40px;
+    }
+    .ft-section__img {
+        margin-top: 40px;
+    }
+    .third__section {
+        padding-top: 60px;
+    }
+    .th-section__text {
+        margin-top: 30px;
+    }
+    .fourth__section {
+        padding-top: 60px;
+    }
+    .accordion-order {
+        margin-right: 34px;
+    }
+    .curators__item {
+        flex-direction: column-reverse;
+        border: none;
+    }
+    .curator__img {
+        min-width: 206px;
+        max-height: 206px;
+        max-width: 206px;
+        margin-bottom: 30px;
+    }
+    .footer__bottom-row {
+        margin-top: 40px;
+    }
+    .footer__links-list {
+        margin-top: 60px;
+    }
+    .curator__info {
+        padding-right: 0;
+    }
+    .footer__container {
+        margin-top: 0;
+    }
+}

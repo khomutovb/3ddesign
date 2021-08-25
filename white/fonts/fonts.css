@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Pragmatica';
+    src: local('Pragmatica'), url("Pragmatica-Book.woff2"), url("Pragmatica-Book.woff"), url('Pragmatica-Book.ttf');
+}
+
+@font-face {
+    font-family: 'Literaturnaya';
+    src: local('Literaturnaya'), url("Literaturnaya-Book.woff2"), url("Literaturnaya-Book.woff"), url('Literaturnaya-Book.ttf');
+}
